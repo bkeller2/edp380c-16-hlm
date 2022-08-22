@@ -1,0 +1,16 @@
+Package: hlm
+Title: Companion Package for EDP 380C 16
+Version: 1.0.62.1
+Authors@R: 
+    person(given = "Brian",
+           family = "Keller",
+           role = c("aut", "cre"),
+           email = "bk@utexas.edu")
+Description: This is a companion package to add some useful functions and data sets for EDP 380C 16.
+License: GPL (>= 3)
+Depends: R (>= 4.0.0)
+Imports: methods, stats, utils, lme4, lmerTest, rstudioapi, rstanarm, remotes
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
